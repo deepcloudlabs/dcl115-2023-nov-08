@@ -2,26 +2,28 @@
 #include <thread>
 
 using namespace std;
-struct anonymous {
+
+struct [[maybe_unused]] anonymous {
     int state;
 
-    void operator()(int id){
+    void operator()(int id) {
         state++;
         cout << "lambda task1 is running " << id << " ..." << endl;
     }
 };
+
 int main() {
     std::cerr << "Application is just started!" << std::endl;
     int state = 100;
-    thread t1{[&state](int id){
+    thread t1{[&state](int id) {
         state++;
         cout << "lambda task1 is running " << id << " ..." << endl;
     }, 1};
-    thread t2{[&](int id){
+    thread t2{[&](int id) {
         state++;
         cout << "lambda task2 is running " << id << " ..." << endl;
     }, 2};
-    thread t3{[&](int id){
+    thread t3{[&](int id) {
         state++;
         cout << "lambda task3 is running " << id << " ..." << endl;
     }, 3};

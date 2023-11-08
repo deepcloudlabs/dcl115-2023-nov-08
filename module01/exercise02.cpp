@@ -5,19 +5,19 @@ using namespace std;
 
 struct task { // function object / functor
 
-    explicit task(int* state) : state(state) {}
+    explicit task(int *state) : state(state) {}
 
     void operator()(int id) {
         (*state)++; // Heap ? Stack
         cerr << "task is running " << id << " ..." << endl;
     }
 
-    int getState() const {
+    [[nodiscard]] int getState() const {
         return *state;
     }
 
 private:
-    int* state;
+    int *state;
 };
 
 int main() {

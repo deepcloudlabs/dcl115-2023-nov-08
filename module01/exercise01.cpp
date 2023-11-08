@@ -4,8 +4,8 @@
 using namespace std;
 int state = 100; // Data --> Process
 
-void task1(int id){ // Text
-    static int local = 0; // stack -- with static --> Data (Process)
+void task1(int id) { // Text
+    [[maybe_unused]] static int local = 0; // stack -- with static --> Data (Process)
     // id, local variables live inside thread's stack
     cout << "task1 is running " << id << " ..." << endl;
     state++;  // race
