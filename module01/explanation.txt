@@ -1,0 +1,8 @@
+functional programming -> paradigm -> declarative programming vs imperative programming
+Pipeline -> Method Chain/Composition -> HOF
+ I. Higher-Order Function (HOF) -> parameters/return type: functions
+II. Pure Function: parameters -> computations -> return : no side effects
+    Lambda Expression -> Pure Function
+    Since C++11: [](int x,int y){ }
+                 capturing?
+    Syntactic Sugar --> function object/functor
