@@ -11,7 +11,9 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="module04" targetName="exercise10" />
       <config projectName="module04" targetName="exercise08" />
+      <config projectName="module04" targetName="exercise09" />
       <config projectName="module04" targetName="exercise04" />
       <config projectName="module04" targetName="exercise05" />
       <config projectName="module04" targetName="exercise06" />
@@ -81,7 +83,7 @@
       <recent name="C:\var\workspace\github\dcl115-2023-nov-08\module04" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.exercise08">
+  <component name="RunManager" selected="CMake Application.exercise10">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -127,6 +129,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise09" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.exercise01" />
       <item itemvalue="CMake Application.exercise02" />
@@ -136,6 +148,8 @@
       <item itemvalue="CMake Application.exercise06" />
       <item itemvalue="CMake Application.exercise07" />
       <item itemvalue="CMake Application.exercise08" />
+      <item itemvalue="CMake Application.exercise09" />
+      <item itemvalue="CMake Application.exercise10" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -146,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699529969167</updated>
-      <workItem from="1699529970474" duration="6634000" />
+      <workItem from="1699529970474" duration="6795000" />
     </task>
     <servers />
   </component>
