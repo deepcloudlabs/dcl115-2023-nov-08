@@ -35,7 +35,7 @@ template <class T>
 void ts_stack<T>::push(T new_value){
     lock_guard<mutex> lock(m);
     my_data.push(new_value);
-    cv.notify_one();
+    cv.notify_all();
 }
 
 template <class T>
