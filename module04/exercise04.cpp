@@ -2,6 +2,7 @@
 #include <iostream>
 #include <mutex>
 #include <future>
+#include <functional>
 
 using namespace std;
 // 7 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13 -> 40 -> 20
@@ -22,6 +23,11 @@ int main(){
     future<long> result = async(std::launch::async,fun,7); // 16 ?
     cerr << "[main]" << this_thread::get_id() << endl;
     cerr << result.get() << endl;
+    auto fun7 = bind(fun,7);
+    packaged_task<long()> task(fun7);
+    task();
+    cerr << task.get_future().get() << endl;
+
     cerr << "Application is just completed." << endl;
     return 0;
 }

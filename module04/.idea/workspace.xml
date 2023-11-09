@@ -11,7 +11,11 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="module04" targetName="exercise08" />
       <config projectName="module04" targetName="exercise04" />
+      <config projectName="module04" targetName="exercise05" />
+      <config projectName="module04" targetName="exercise06" />
+      <config projectName="module04" targetName="exercise07" />
       <config projectName="module04" targetName="exercise01" />
       <config projectName="module04" targetName="exercise02" />
       <config projectName="module04" targetName="exercise03" />
@@ -64,6 +68,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/var/workspace/github/dcl115-2023-nov-08/module04",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +76,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.exercise04">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\var\workspace\github\dcl115-2023-nov-08\module04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.exercise08">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -97,11 +107,35 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.exercise01" />
       <item itemvalue="CMake Application.exercise02" />
       <item itemvalue="CMake Application.exercise03" />
       <item itemvalue="CMake Application.exercise04" />
+      <item itemvalue="CMake Application.exercise05" />
+      <item itemvalue="CMake Application.exercise06" />
+      <item itemvalue="CMake Application.exercise07" />
+      <item itemvalue="CMake Application.exercise08" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699529969167</updated>
-      <workItem from="1699529970474" duration="2883000" />
+      <workItem from="1699529970474" duration="6634000" />
     </task>
     <servers />
   </component>
