@@ -23,7 +23,7 @@ public:
     }
 
     double load(double weight) {
-        lock_guard<mutex> guard(m);
+        //lock_guard<mutex> guard(m);
         if (weight <= 0) return this->currentLoad;
         if ((weight + this->currentLoad > this->capacity))
             return this->currentLoad;
@@ -32,7 +32,7 @@ public:
     }
 
     double unload(double weight) {
-        lock_guard<mutex> guard(m);
+        //lock_guard<mutex> guard(m);
         if (weight <= 0) return this->currentLoad;
         if (weight > this->currentLoad)
             return this->currentLoad;
@@ -42,8 +42,8 @@ public:
 };
 
 void transferLoad(vehicle& from,vehicle& to,double weight){
-    unique_lock lock1(from.m,defer_lock);
-    unique_lock lock2(to.m,defer_lock);
+    unique_lock<mutex> lock1{from.m,defer_lock};
+    unique_lock<mutex> lock2{to.m,defer_lock};
     lock(lock1,lock2);
     from.unload(weight);
     to.load(weight);
@@ -66,6 +66,5 @@ int main() {
     thread t2(task,ref(v1),ref(v2));
     t1.join();
     t2.join();
-    std::cerr << "State: " << state << std::endl;
     return 0;
 }
