@@ -29,7 +29,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6c3ad1a-1a03-4478-9ad5-6beb1b46a6bd" name="Changes" comment="" />
+    <list default="true" id="a6c3ad1a-1a03-4478-9ad5-6beb1b46a6bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../module09/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/.idea/module09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/exercise01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/threadsafe_queue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module09/threadsafe_queue.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
