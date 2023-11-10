@@ -123,6 +123,7 @@ range(unsigned start,unsigned stop,unsigned step=1)
 
 //js:
 //function* gun(limit){ for(let i=0;i<limit;++i) yield i;  }
+//for (let k of gun(10)) console.log(k);
 
 //python:
 /*
