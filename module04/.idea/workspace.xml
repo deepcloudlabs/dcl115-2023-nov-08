@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -30,8 +30,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6c3ad1a-1a03-4478-9ad5-6beb1b46a6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module03/exercise05.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/.idea/module05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise03.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise05.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exercise05.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +57,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2XwArgUrsEmHv06Fz0Yv2QWIDLG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,34 +68,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/var/workspace/github/dcl115-2023-nov-08/module04",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/var/workspace/github/dcl115-2023-nov-08/module04&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\var\workspace\github\dcl115-2023-nov-08\module04" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.exercise10">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercise01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="module04" TARGET_NAME="exercise01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="module04" RUN_TARGET_NAME="exercise01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -161,6 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699529969167</updated>
       <workItem from="1699529970474" duration="6795000" />
+      <workItem from="1699599158111" duration="1109000" />
     </task>
     <servers />
   </component>
