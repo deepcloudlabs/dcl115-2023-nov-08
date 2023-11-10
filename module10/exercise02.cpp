@@ -1,7 +1,7 @@
 #include <iostream>
 #include <map>
 #include <set>
-#include <numeric>
+#include <parallel/numeric>
 #include <memory>
 #include <execution>
 
@@ -34,7 +34,7 @@ int main() {
     };
     vector<shared_ptr<country>> ulkeler;
 
-    for (auto const& [code, country] : countries){
+    for (auto const& [code, country] : countries){ // external loop
         ulkeler.push_back(country);
     }
     if (ulkeler.size() > 1'000'000)
