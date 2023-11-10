@@ -30,15 +30,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6c3ad1a-1a03-4478-9ad5-6beb1b46a6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/module05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/exercise02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/exercise03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise07.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise05.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exercise05.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/exercise03.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/exercise03.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699529969167</updated>
       <workItem from="1699529970474" duration="6795000" />
-      <workItem from="1699599158111" duration="1109000" />
+      <workItem from="1699599158111" duration="1703000" />
     </task>
     <servers />
   </component>

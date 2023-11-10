@@ -4,18 +4,19 @@
 #include <coroutine>
 
 using namespace std;
-atomic<bool> x{false}; // Data
-atomic<bool> y{false}; // Data
+atomic<bool> flag{false}; // Data
+int a = 0;
 
 void fun() {
-    x.store(true,memory_order_seq_cst);
-    y.store(true,memory_order_seq_cst);
+    a = 42;
+    atomic_thread_fence(memory_order_release);
+    flag.store(true, memory_order_relaxed);
 };
+
 void gun() {
-    while (!y.load(memory_order_seq_cst));
-    if (x.load(memory_order_seq_cst)){
-        cerr << "x and y are both true" << endl << flush;
-    }
+    while (!flag.load(memory_order_relaxed));
+    atomic_thread_fence(memory_order_acquire);
+    cerr << "a is " << a << endl << flush; // guarantied to print 42
 };
 
 int main() {
