@@ -30,22 +30,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6c3ad1a-1a03-4478-9ad5-6beb1b46a6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/.idea/module06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module06/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/module07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/.idea/module08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/exercise02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/threadsafe_stack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module08/threadsafe_stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/module10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/city.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/city.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/country.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/country.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/exercise01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/exercise02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/world-util.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module10/world-util.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workspace-dcl115-siemens-2023-nov-08-day2.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699529969167</updated>
       <workItem from="1699529970474" duration="6795000" />
-      <workItem from="1699599158111" duration="1703000" />
+      <workItem from="1699599158111" duration="2309000" />
     </task>
     <servers />
   </component>
